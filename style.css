@@ -1,0 +1,266 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: whitesmoke;
+            margin: 0;
+            padding: 0;
+            color: #4A4A4A;
+        }
+
+        /* Header */
+        header {
+            background-color: #9A9F69;
+            color: white;
+            padding: 15px;
+            position: static;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            text-align: center;
+        }
+
+        header .logo h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+        }
+        
+        nav a:hover {
+            color:#C4E6A6;
+        }
+        
+        /* Account Icon */
+         .account-icon {
+            margin-right: 20px; 
+       }
+
+       .account-icon img {
+            width: 25px;
+            height: 25px;
+        }
+        
+        /* Cart Container */
+        .cart-container {
+            display: flex;
+            align-items: center;
+            position: relative;
+            margin-left: 20px; /* Space from the navigation */
+        }
+
+        .cart-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .cart-icon img {
+            width: 30px; 
+            height: 30px; 
+        }
+
+        .cart-count {
+            position: absolute;
+            top: -10px; /* Position slightly above */
+            right: -10px; /* Position slightly to the right */
+            background-color: white;
+            color: black;
+            border-radius: 50%;
+            padding: 3px 6px;
+            font-size: 0.8em;
+            width: 15px; /* Fixed width */
+            height: 15px; /* Fixed height */
+            display: flex; /* Flexbox to center content */
+            align-items: center; /* Center vertically */
+            justify-content: center; /* Center horizontally */
+            border: 1px solid white; /* Optional: white border for better visibility */
+        }
+
+
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            background-image: url('Screenshot 2024-09-09 155645.png');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.5em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+
+        .cta-button {
+            padding: 10px 30px;
+            background-color: #888E4D;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+        }
+
+        /* About Section */
+        #about {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        #about h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        #about p {
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        /* Featured Products Section */
+        #featured-products {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        #featured-products h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .product-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .product-item {
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product-item h3 {
+            font-size: 1.5em;
+            margin: 15px 0;
+        }
+        
+         /* Why KOIKIES Special Section */
+        #why-koikies-special {
+            padding: 80px 20px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        #why-koikies-special h2 {
+            font-size: 2.5em;
+            color: #888E4D;
+            margin-bottom: 50px;
+        }
+
+        .special-features {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .feature-item {
+            width: 250px;
+            text-align: center;
+        }
+
+        .feature-item img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #888E4D;
+            object-fit: cover;
+        }
+
+        .feature-item h3 {
+            margin-top: 20px;
+            font-size: 1.5em;
+            color: #888E4D;
+        }
+
+        .feature-item p {
+            margin-top: 10px;
+            font-size: 1em;
+            color: #555;
+        }
+
+       /* Footer */
+        footer {
+            background-color: #9A9F69;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+        
+        /* Back to Top Button */
+        .back-to-top {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: #9A9F69;
+            color: white;
+            border-radius: 50%;
+            text-decoration: none;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            font-size: 1.2em;
+            text-align: center;
+            line-height: 40px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-to-top:hover {
+            background-color: #787B51;
+        }
+        
+    </style>
